@@ -17,24 +17,3 @@ Github Blog를 만드는 것은 처음이다.
 첫 게시글을 작성해본다.  
 참고로 테마는 많은 분들이 사용하고 레퍼런스도 많이 있는 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)를 사용했다.  
 처음이라 아직 뭐가먼지 잘 모르겠지만 꾸준히 공부한 내용을 포스팅하며 발전할 것이다.
-
-# 첫번째 제목
-
-과연 옆에 목차가 생길것인가
-
-# 두번째 제목
-
-궁금합니다.
-
-# 세번째 제목
-
-코드는 어떨까요?
-
-```java
-class Hello() {
-    public static void main(String[] args) {
-        System.out.println("Hello World!")
-    }
-}
-
-```
