@@ -1,5 +1,5 @@
 ---
-title: "Elastic Search 설치"
+title: "[Elastic_Stack] Elastic Search 설치"
 excerpt: "Elastic Search 설치"
 toc: true
 toc_sticky: true
@@ -46,7 +46,7 @@ $ tar -zxf elasticsearch-7.6.2-darwin-x86_64.tar.gz
 $ ln -s elasticsearch-7.6.2 elasticsearch
 ```
 
-다음에 버전을 update하더라도 softlink를 걸면 보다 편하게 접근할 수 있다.
+다음에 버전을 update하더라도 softlink를 걸면 보다 편하게 접근할 수 있습니다.
 
 ```shell
 $ cd elasticsearch
@@ -66,8 +66,8 @@ drwxr-xr-x  38 kyeongmin  staff    1216  3 26 15:39 modules
 drwxr-xr-x   2 kyeongmin  staff      64  3 26 15:36 plugins
 ```
 
-압축 해제된 디렉토리를 보면 위와 같이 여러 디렉토리 및 파일들을 볼 수 있다.  
-이 중 주로 자주 사용하게될 디렉토리는 _bin_ 디렉토리와 _config_ 디렉토리입니다.
+압축 해제된 디렉토리를 보면 위와 같이 여러 디렉토리 및 파일들을 볼 수 있습니다.  
+이 중 주로 사용하게될 디렉토리는 _bin_ 디렉토리와 _config_ 디렉토리입니다.
 먼저 _config_ 디렉토리를 살펴보겠습니다.
 
 ```shell
