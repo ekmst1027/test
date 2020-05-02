@@ -5,10 +5,10 @@ toc: true
 toc_sticky: true
 
 categories:
-  - Elastic Stack
+  - Elastic_Stack
   - Elasticsearch
 tags:
-  - Elastic Stack
+  - Elastic_Stack
   - Elasticsearch
 ---
 
