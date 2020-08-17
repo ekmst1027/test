@@ -1,5 +1,5 @@
 ---
-title: "[Javascript] Javascript 기초 문법 스터디"
+title: "[Javascript] Javascript 기초 문법 스터디 (1)"
 excerpt: "자바스크립트 기초 문법 스터디"
 toc: true
 toc_sticky: true
@@ -10,9 +10,7 @@ tags:
   - Javascript
 ---
 
-## Javascript 기초 문법
-
----
+## Javascript 기초 문법 (1)
 
 ### 변수와 상수
 
@@ -137,3 +135,4 @@ null과 undefined는 차이점은 null의 경우 고의적으로 값이 없음�
 **참고자료**
 
 - [벨로퍼트와 함께하는 모던 자바스크립트 패스트캠퍼스 온라인 강의](https://www.fastcampus.co.kr/dev_online_react)
+- 모던 자바스크립트 입문 책
