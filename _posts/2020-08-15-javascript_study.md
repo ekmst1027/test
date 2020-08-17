@@ -1,0 +1,139 @@
+---
+title: "[Javascript] Javascript 기초 문법 스터디"
+excerpt: "자바스크립트 기초 문법 스터디"
+toc: true
+toc_sticky: true
+
+categories:
+  - Javascript
+tags:
+  - Javascript
+---
+
+## Javascript 기초 문법
+
+---
+
+### 변수와 상수
+
+- **변수(Variable)**
+  - 변수는 값을 담기 위해 이름을 붙인 공간
+  - 컴퓨터 메모리에 일정한 크기의 영역으로 생성됨
+  - 변수는 바뀔 수 있는 값
+
+변수 선언 예시
+
+```javascript
+let value = 1;
+```
+
+위 코드는 value의 값은 1이라고 정해준다는 뜻
+javascript에서는 `let`이라는 키워드로 변수를 선언함
+
+```javascript
+let value = 1;
+console.log(value);
+value = 2;
+console.log(value);
+```
+
+```shell
+1
+2
+```
+
+위의 코드와 같이 변수에 각각 다른 값을 할당할 수 있으나 let 키워드로 똑같은 이름의 변수를 선언할 수 없음
+
+```javascript
+let value = 1;
+let value = 2;
+```
+
+```shell
+SyntaxError: /src/index.js: Identifier 'value' has already been declared (2:4)
+```
+
+- **상수**
+  - 한번 선언하고 값이 바뀌지 않는 값
+  - 값이 고정적임
+
+상수 선언 예시
+
+```javascript
+const a = 1;
+```
+
+위 코드는 a 값은 1이라고 정해준다는 뜻
+javascript에서는 `const`라는 키워드로 상수를 선언함
+
+```javascript
+const a = 1;
+a = 2;
+```
+
+```shell
+Error: "a" is read-only
+```
+
+위와 같이 상수로 선언된 값을 변경하려고 할 수 없음
+
+```javascript
+const a = 1;
+const a = 2;
+```
+
+```shell
+SyntaxError: /src/index.js: Identifier 'a' has already been declared (2:6)
+```
+
+`let` 키워드와 마찬가지로 똑같은 이름의 상수를 선언할 수 없음
+
+---
+
+### 데이터 타입
+
+- **숫자(Number)**
+  - 바로 값을 대입
+
+```javascript
+let value = 1;
+```
+
+- **문자열(String)**
+  - 텍스트 형태의 값은 single quotation(') 혹은 double quotation(")으로 문자열들을 감싸서 선언한다.
+  - single quotation과 double quotation의 차이는 없으나 하나만 선택하여 일관성 있게 사용해야 함
+
+```javascript
+let name = "자바스크립트";
+let hello = "world";
+```
+
+- **참/거짓(Boolean)**
+  - boolean은 true/false 두가지 종류의 값만 나타낼 수 있음
+
+```javascript
+let loading = false;
+let error = true;
+```
+
+- **null과 undefined**
+  - null : 값이 없음을 뜻함
+  - undefined : 아직 값이 설정되지 않았음을 뜻함
+
+```javascript
+const food = null;
+console.log(food);
+let yourname;
+console.log(yourname);
+```
+
+```shell
+null
+undefined
+```
+
+null과 undefined는 차이점은 null의 경우 고의적으로 값이 없음을 설정하는 것을 의미하고, undefined는 값이 설정되지 않았기 때문에 값이 없음을 의미한다.
+
+**참고자료**
+
+- [벨로퍼트와 함께하는 모던 자바스크립트 패스트캠퍼스 온라인 강의](https://www.fastcampus.co.kr/dev_online_react)
